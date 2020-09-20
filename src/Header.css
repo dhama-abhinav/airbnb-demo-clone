@@ -1,0 +1,51 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #F2EFE9;
+    z-index: 100;
+    width: 100%;
+}
+.header__left{
+    height: 100px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+.header__center{
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    max-width: fit-content;
+    /* flex=1 takes maximus space as it can ,
+    above line makes this div in the center
+    */
+    padding: 20px;
+    height: 2px;
+    border: 1px solid lightgrey;
+    border-radius: 999px;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    width: 15vw;
+    justify-content: space-between;
+}
+.header__right> p{
+    margin-right: 10px;
+    font-weight: 500;
+}
+.header__rightIcon{
+    margin-right: 10px;
+}
+.header__center> input{
+    border: none;
+    width: 250px;
+    padding: 5px;
+    outline-width: 0;
+    background-color:#F2EFE9 ;
+}
+.header__centerIcon{
+    margin-left: 5px;
+}

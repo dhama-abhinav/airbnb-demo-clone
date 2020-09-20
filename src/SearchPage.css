@@ -1,0 +1,19 @@
+.searchpage__info>p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.searchpage__info>h1{
+    margin-bottom: 7px;
+    margin-left: 5px;
+}
+.searchpage__info > button{
+    border-radius: 10px;
+    margin: 8px;
+    background-color: #fdb633;
+    /* text-transform: inherit !important; */
+}
+.searchpage__info >button:hover{
+    background-color: #f0fc48;
+}
